@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regalo Nicole</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="lock" class="lock closed"></div>
+    <div class="card">
+      <h1>🔒 Ingresa la contraseña</h1>
+      <input id="pwd" type="password" placeholder="Te amo" maxlength="8" />
+      <div class="buttons">
+        <button id="tryBtn">Probar</button>
+        <button id="clearBtn">Borrar</button>
+      </div>
+      <div class="pad">
+        <button class="key">1</button>
+        <button class="key">2</button>
+        <button class="key">3</button>
+        <button class="key">4</button>
+        <button class="key">5</button>
+        <button class="key">6</button>
+        <button class="key">7</button>
+        <button class="key">8</button>
+        <button class="key">9</button>
+        <button id="back">←</button>
+        <button class="key">0</button>
+        <button id="ok">OK</button>
+      </div>
+    </div>
+    <div id="reveal" class="hidden">
+      <h2 id="revealTitle"></h2>
+      <p id="revealMsg"></p>
+      <div id="confetti"></div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
